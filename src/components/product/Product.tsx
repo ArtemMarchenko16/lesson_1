@@ -19,7 +19,7 @@ export type IProductsTypeProps = IProductsProps & {children?: React.ReactNode}
 const Product:FC<IProductsTypeProps> = ({id, title,description,price,rating, images}) => {
     return (
         <div>
-            <h2>Title: {title}</h2>
+            <h2>{title}</h2>
             <p>Price: {price}</p>
             <p>Description: {description}</p>
             <p>Rating: {rating}</p>
